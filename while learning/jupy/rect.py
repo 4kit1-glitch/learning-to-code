@@ -13,4 +13,7 @@ def polyline(n , angle,lenght):
 def square(lenght):
     polyline(n = 4 , angle = 90 ,lenght  = lenght)
 
-forward(30)
+def rectangle(lenght, width):
+    for i in range(2):
+        polyline(n = 1 , angle=90 , lenght = lenght)
+        polyline(n = 1 , angle = 90 , lenght = width)
