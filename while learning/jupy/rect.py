@@ -9,6 +9,11 @@ def polyline(n , angle,lenght):
     for i in range(n):
         forward(lenght)
         left(angle)
+def parallelogram(lenght , interior_angle , width = 0):
+    for i in range(2):
+        linear_angle = 180 - interior_angle
+        polyline(n = 1,angle = interior_angle , lenght = lenght)
+        polyline(n = 1 , angle = linear_angle, lenght= width)
 
 def square(lenght):
     polyline(n = 4 , angle = 90 ,lenght  = lenght)
