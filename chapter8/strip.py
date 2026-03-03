@@ -3,7 +3,11 @@
 # from the string provided that the argument is found either at
 # The end or begining of the function
 
-message = "hello, wordh"
+# message = "hello, wordh"
 
-print(message,"hello")
-print(message.strip('h'),"heloo")
+# print(message,"hello")
+# # print(message.strip('h'),"heloo")
+
+for line in open('chapter8/words.txt'):
+    word = line.strip()
+    print(word)
