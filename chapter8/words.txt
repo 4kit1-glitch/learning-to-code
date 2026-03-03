@@ -3,7 +3,10 @@ efficient
 bright
 curious patient
 friendly
-kind  strong  smart
-creative  helpful
-friendly quick
+kind  
+strong  smart
+creative  
+helpful
+friendly
+quick
 bold
