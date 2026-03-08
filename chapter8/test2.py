@@ -1,6 +1,6 @@
 # testing the ^ and $ special characters
 
-from re import search
+from re import search, sub
 reader = open('chapter8/words.txt')
 
 def count_pattern(file_object):
