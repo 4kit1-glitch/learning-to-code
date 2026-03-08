@@ -14,6 +14,4 @@ def head(file_path, num = 5, condition = None):
             writer.write(line)
         count += 1
 
-
-def 
-    
+def wordle(word):
