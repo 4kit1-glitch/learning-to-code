@@ -24,7 +24,5 @@ def replace(file_object, old, new):
         if old in line:
             line = line.replace(old, new)
             writer.write(line)
-            
-    pass
 
 portfolio(reader)

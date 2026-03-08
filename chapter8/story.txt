@@ -1,7 +1,0 @@
-Age: 18
-Gender: Male
-education Level: Beng
-Address: bambili
-Profession: Engr
-Marital status: single
-Children: two
