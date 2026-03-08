@@ -10,6 +10,9 @@ def count_pattern(file_object):
         result = search(pattern, line.lower())
         if result != None:
             count += 1
+    reader.close()
     return count
 
-print(count_pattern(reader))
+pattern = 'colou?r'
+
+print(search(pattern, 'colored baby'))
