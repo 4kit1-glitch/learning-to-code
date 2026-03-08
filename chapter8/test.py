@@ -5,7 +5,7 @@ story = open('chapter8/read.txt')
 info = open('chapter8/info.txt','w')
 
 def user_info(file):
-    pattern = r'Mary|Marie'
+    pattern = r'Mary|Marie|dead'
     for line in file:
         result = re.search(pattern, line)
         if result != None:
