@@ -15,5 +15,5 @@ def head(file_path, num = 5, condition = None):
         count += 1
 
 
-head('chapter9/words.txt', 4, 3)
+def 
     
