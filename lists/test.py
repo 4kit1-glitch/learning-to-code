@@ -14,3 +14,5 @@ greetings[1] = "haw"
 print(greetings)
 
 #greetings[3] = "wassup"    list assignment index out of range
+
+print(greetings[::])
