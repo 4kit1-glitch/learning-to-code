@@ -51,6 +51,6 @@ def play_wordle():
 
 
 if play_wordle() == 0:
-    print("succesful run")
+    print("successful run")
 else:
-    print("unsuccesful run")
+    print("unsuccessful run")
