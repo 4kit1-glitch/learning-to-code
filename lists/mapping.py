@@ -5,6 +5,8 @@ Created on Mon Mar  9 21:55:50 2026
 
 @author: aimmee
 """
+from timeit import timeit
+
 
 numbers = [1, 2, 3, 4, 5]
 names = ["john", "peter", "donald"]
@@ -26,4 +28,6 @@ def times_two(num):
 modified_nums = [times_two(x) for x in numbers]
 modified_nums = list(map(times_two, numbers))
 
-print(modified_nums)
+print(timeit("map(times_two, numbers)", "from __main__ import times_two, numbers"))
+print(timeit("map(lambda x: x*2, numbers)",
+      "from __main__ import times_two, numbers"))
