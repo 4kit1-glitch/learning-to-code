@@ -28,6 +28,7 @@ def times_two(num):
 modified_nums = [times_two(x) for x in numbers]
 modified_nums = list(map(times_two, numbers))
 
-print(timeit("map(times_two, numbers)", "from __main__ import times_two, numbers"))
+print(timeit("map(times_two, numbers)",
+             "from __main__ import times_two, numbers"))
 print(timeit("map(lambda x: x*2, numbers)",
-      "from __main__ import times_two, numbers"))
+             "from __main__ import times_two, numbers"))
