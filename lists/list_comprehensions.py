@@ -17,4 +17,13 @@ even_numbers = [x for x in numbers if x % 2 == 0]
 sqrt_list = [math.sqrt(x) for x in numbers if x > 0]
 shopped = [fruit if fruit in "apple" else "orange" for fruit in fruits]
 
-print(shopped)
+
+# functions in list comprehension
+
+def times_two(num):
+    return num * 2
+
+
+multiplied_numbers = [times_two(x) for x in numbers]
+
+print(multiplied_numbers)
