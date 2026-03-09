@@ -20,3 +20,8 @@ print(greetings[::])
 #in operator
 
 print("h" in "".join(greetings)) #works but with elements in list 
+
+#reversed objects
+nums = [1, 2, 3]
+reversed_nums = list(reversed(nums))
+print(reversed_nums)
