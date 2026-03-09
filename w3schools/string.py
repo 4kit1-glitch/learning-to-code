@@ -49,6 +49,10 @@ print(txt.isidentifier())
 
 
 
+#lstrip()
+txt = ",,,,,ssaaww.....banana"
+x = txt.lstrip(".,saw")
+print(x)
 
 
 
