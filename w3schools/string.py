@@ -32,6 +32,9 @@ txt = "h\te\tl\tl\t"
 
 print(txt.expandtabs(4))
 
+#find
+print(word.find('e'))
+
 
 
 
