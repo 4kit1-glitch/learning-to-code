@@ -40,7 +40,12 @@ print(word.find('e'))
 #isascii
 print(word.isascii())
 
+#isnumeric / isdigit / isdecimal
+txt = "123434d3"
+print(txt.isdigit(),txt.isdecimal(), txt.isnumeric(), txt.isalnum())
 
+#isidentifier
+print(txt.isidentifier())
 
 
 
