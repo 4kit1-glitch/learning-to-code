@@ -7,3 +7,4 @@ print(numbers * 3)  #repeatition
 
 # Max and min built in functions work
 print(max(numbers), max(stuff))
+

@@ -18,7 +18,7 @@ def head(file_path, num=5, condition=None):
 
 
 def selection():
-    word_list = open('word_list.txt')
+    word_list = open('chapter9/word_list.txt')
     selected = random.choice(word_list.readlines()).strip()
     return selected
 
