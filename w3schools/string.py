@@ -35,10 +35,10 @@ print(txt.expandtabs(4))
 #find
 print(word.find('e'))
 
+#index , isalpha, isalphanum
 
-
-
-
+#isascii
+print(word.isascii())
 
 
 
