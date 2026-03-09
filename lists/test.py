@@ -8,5 +8,9 @@ print(len(empty))
 #list are mutable
 
 greetings = ["hello", "hi", "wassup"]
+print(greetings)
 
-print(greetings[0])
+greetings[1] = "haw"
+print(greetings)
+
+#greetings[3] = "wassup"    list assignment index out of range
