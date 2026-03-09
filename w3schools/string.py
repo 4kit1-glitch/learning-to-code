@@ -1,4 +1,4 @@
-text = "why are you up this late"
+text = "why are you up this late?"
 word = "Jockerr"
 
 #capitalize
@@ -14,3 +14,34 @@ print(word.center(6))
 print(text.count(" ", 4, 12),)
 
 #encode
+txt = "My name is Ståle"
+
+print(txt.encode(encoding="ascii",errors="backslashreplace"))
+print(txt.encode(encoding="ascii",errors="ignore"))
+print(txt.encode(encoding="ascii",errors="namereplace"))
+print(txt.encode(encoding="ascii",errors="replace"))
+print(txt.encode(encoding="ascii",errors="xmlcharrefreplace"))
+
+print(txt.encode(encoding="ascii", errors="replace"))
+
+#endswith
+print(text.endswith('?'))
+
+#expandtabs
+txt = "h\te\tl\tl\t"
+
+print(txt.expandtabs(4))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
