@@ -16,3 +16,7 @@ print(greetings)
 #greetings[3] = "wassup"    list assignment index out of range
 
 print(greetings[::])
+
+#in operator
+
+print("h" in "".join(greetings)) #works but with elements in list 
