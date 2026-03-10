@@ -15,4 +15,10 @@ def my_func(num):
 
 numbers.sort(key=my_func)
 
+fruits = ['apple', 'banana', 'cherry', "ple", 1, 0, 100]
+
+fruits.reverse()
+
+print(fruits)
+
 print(numbers)
