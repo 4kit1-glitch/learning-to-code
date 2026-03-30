@@ -1,8 +1,10 @@
 
 from doctest import run_docstring_examples
 
+
 def run_docsrings(func):
     run_docstring_examples(func, globals(), name=func.__name__)
+
 
 def has_e(word):
     """Checks if a word has the letter e
@@ -13,7 +15,8 @@ def has_e(word):
     """
     return 'e' in word.lower()
 
-file_object = open('chapter8/words.txt')
+
+file_object = open('words.txt')
 num = 0
 
 for line in file_object:
