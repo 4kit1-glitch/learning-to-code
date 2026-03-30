@@ -18,3 +18,26 @@ family = {
         "hobby": "singing"
     }
 }
+
+# method 2
+child1 = {
+    "name": "harisson",
+    "age": 4
+}
+child2 = {
+    "name": "harisson",
+    "age": 4
+}
+
+childern = {
+    "child1": child1,
+    "child2": child2
+}
+
+# working with them
+print(family.get("father").get("name"))
+
+# looping with nested dicts
+for key, value1 in family.items():
+    for value in value1.values():
+        print(key, value)
