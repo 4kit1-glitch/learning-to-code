@@ -1,0 +1,17 @@
+The acidity or basicity of a salt solution is explained in terms of the acidity or
+basicity of individual ions in the solution. The following rules are applied to normal salts
+that is, those in which the anion has no acidic hydrogen atoms:
+1. Solution obtained by dissolving a salt of a strong base and a strong acid is a neutral
+solution because when dissolve in water, no hydrolysable ion is produced that is the ions
+that they produce don’t react with water molecules. So when dissolve in water, the
+concentration of hydrogen ions and hydroxyl ions are not affected and so the obtained
+aqueous solution is neutral.
+Example 2.12: NaCl; when NaCl is dissolved in water, Na+ and Cl- are produced and these
+two ions cannot react with H2O to produce H3O+ and HO- ions. In general, cation of group
+1 and heavy group 2 (like 𝐵𝑎2+ ), and anions such as 𝑁𝑂3− and 𝐶𝑙𝑂4− will not affect the pH.
+2. Solution obtained by dissolving a salt of a strong base and a weak acid is a basic
+solution because the anion of the salt which is the conjugate base of a weak is a strong base
+so, it can react with water molecule to produce HO- ions. Example: NaCN; when dissolve
+in water, it produces Na+ and NC- ions. The NC- ions react with water according to the
+following chemical equation:
+continuous-intergration
