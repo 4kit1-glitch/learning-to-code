@@ -1,4 +1,12 @@
-.vscode
-.spyproject
+# git ingnore
+
+#configuration files
+*.ini
+*.cfg
+*.conf
+
+# project configuration files
+.vscode/
+.spyproject/
 
 
