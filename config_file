@@ -1,0 +1,6 @@
+data_dir: Camera
+extensions:
+- jpg
+- jpeg
+- png
+photo_dir: /home/kit/Pictures

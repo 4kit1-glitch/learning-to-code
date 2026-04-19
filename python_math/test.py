@@ -7,12 +7,14 @@ Created on Sun Apr 19 14:57:26 2026
 """
 
 def evaluate_input():
-    message = """enter the equation it should be simple not containing
-    any exponential equations :   
+    message = """enter the equation it should be simple
+    not containing any exponential equations the value of the:
+    if you need to use ^ use ** for now  
     """
+
+    print(message)
+
     operator = ["+", "-", "/", "*", "**"]
-    user_input = input(f"{message}: ")
-    
-    for char in user_input.replace(" ", ""):
-        if char in operator:
-            
+    operands = []
+    user_input = input("equation: ")
+    input = user_input.split()

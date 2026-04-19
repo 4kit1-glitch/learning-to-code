@@ -32,7 +32,15 @@ def check_words(message):
         elif word in good_words:
             seen_good.add(word)
             good_count += 1
-    sum = dot(good_count, )
+    good_bad = (good_count, bad_count)
+    sum = dot(weight, good_count)
+    predict(sum)
+
+def predict(value):
+    if value < 0:
+        print("bad message")
+    else:
+        print("good message")
     
 
 def punish_user(words):
