@@ -12,4 +12,8 @@ with open("config_file", "w") as writer:
     yaml.dump(config, writer)
 
 readconfig = open("config_file").read()
-print(readconfig)
+
+with open("config_file") as reader:
+    config_dict = yaml.safe_load(reader)
+
+print(config_dict)
