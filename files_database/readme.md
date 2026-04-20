@@ -62,4 +62,57 @@ with open("file path", "w") as file:
 
 # YAML (YAML aint markup language)
 Just a human friendly configuration file
-. The YAML module in python 
+```python
+import os
+import yaml
+
+config = {
+    "user_name": "harrison"
+    "pass_code": "8jkdfa934"
+    "ENCRYPTION_KEY": "5"
+}
+# use the dump functionto store config to a file
+with open("file path") as config_file:
+    yaml.dump("config settings", "file")
+# use safe_load method to return a dictionary with configurations
+```
+**Serialization and Deserialization**
+
+    serialization is the conversion of a datastructure into a string 
+    
+    deserialization is the reverse
+
+### Making directories with the makedirs os method
+```python
+import os
+os.makedirs("dir name")
+#to ensure it doesnt overwrite if the dir already exist use
+os.makedirs("dir_name", exist_ok = True)
+```
+
+# SHELVE 
+```python
+import shelve
+shelve.open(db_file, "c") # c is flag for create
+
+```
+
+## comparing files
+comparing files to see which files contains the same content
+
+### method 1
+```python
+path1 = "file1 path"
+path2 = "file path"
+data1 = open(path1, "rb") #the rb flag means read bytes and returns a byte object  
+data2 = open(path2, "rb")
+
+print(data1 == data2)
+```
+
+### method 2
+- using a hash fuction with hashlib
+```python
+import hashlib
+
+```
